@@ -1,0 +1,38 @@
+{
+  "budget": 300,
+  "requests_sent": 300,
+  "sim_duration_ms": 420000.0,
+  "global_peak_concurrency": 4,
+  "sites": [
+    {
+      "site": "A",
+      "priority": 3,
+      "requests_sent": 180,
+      "quota_used": 180,
+      "waited_ms": 120000.0,
+      "skipped_for_cooldown": 0,
+      "peak_concurrency": 2,
+      "failures": 0
+    },
+    {
+      "site": "B",
+      "priority": 2,
+      "requests_sent": 90,
+      "quota_used": 90,
+      "waited_ms": 120000.0,
+      "skipped_for_cooldown": 0,
+      "peak_concurrency": 2,
+      "failures": 0
+    },
+    {
+      "site": "C",
+      "priority": 1,
+      "requests_sent": 30,
+      "quota_used": 30,
+      "waited_ms": 420000.0,
+      "skipped_for_cooldown": 0,
+      "peak_concurrency": 1,
+      "failures": 0
+    }
+  ]
+}
